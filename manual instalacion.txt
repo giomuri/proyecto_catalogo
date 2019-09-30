@@ -1,0 +1,4 @@
+MANUAL DE INSTALACION
+EL siguiente proyecto se a desarrollado con el frame Codeigniter, para realizar pruebas es necesario instalarse en un ambiente local, para eso es necesario usar xampp o wampp server
+
+1)Si esta en servidor local, poner el proyecto dentro de una carpeta con el nombre de 
