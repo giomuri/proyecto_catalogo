@@ -1,4 +1,12 @@
 MANUAL DE INSTALACION
 EL siguiente proyecto se a desarrollado con el frame Codeigniter, para realizar pruebas es necesario instalarse en un ambiente local, para eso es necesario usar xampp o wampp server
 
-1)Si esta en servidor local, poner el proyecto dentro de una carpeta con el nombre de 
+1)Si esta en servidor local, poner el proyecto dentro de su servidor con el nombre de catalogo_producto.
+2)ejecutar el script catalogo_producto.sql en la base de datos que se encuentra en la carpeta raiz.
+3)poner la siguiente url en el navegador:
+ http://localhost/catalogo_producto/
+ 
+ NOTA: en caso de que la instalacion sea en otro servidor, ir al archivo config.php que se encuentra en la ruta:: catalogo_producto\application\config
+ y en la linea 25 reemplazar en la url el "Localhost" por el nombre de su servidor en el que realizara las pruebas.
+ 
+ $config['base_url'] = 'http://localhost/catalogo_producto/';
