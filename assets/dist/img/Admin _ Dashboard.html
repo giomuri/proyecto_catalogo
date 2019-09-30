@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<!-- saved from url=(0045)http://localhost/tutorialCI/cimagen/addImagen -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Admin | Dashboard</title>
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <!-- Bootstrap 3.3.6 -->
+  <link rel="stylesheet" href="./Admin _ Dashboard_files/bootstrap.min.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="./Admin _ Dashboard_files/font-awesome.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="./Admin _ Dashboard_files/ionicons.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="./Admin _ Dashboard_files/AdminLTE.min.css">
+  <!-- AdminLTE Skins. Choose a skin from the css/skins
+       folder instead of downloading all of them to reduce the load. -->
+  <link rel="stylesheet" href="./Admin _ Dashboard_files/_all-skins.min.css">
+  <!-- iCheck -->
+  <link rel="stylesheet" href="./Admin _ Dashboard_files/blue.css">
+  <!-- Morris chart -->
+  <link rel="stylesheet" href="./Admin _ Dashboard_files/morris.css">
+  <!-- jvectormap -->
+  <link rel="stylesheet" href="./Admin _ Dashboard_files/jquery-jvectormap-1.2.2.css">
+  <!-- Date Picker -->
+  <link rel="stylesheet" href="./Admin _ Dashboard_files/datepicker3.css">
+  <!-- Daterange picker -->
+  <link rel="stylesheet" href="./Admin _ Dashboard_files/daterangepicker.css">
+  <!-- bootstrap wysihtml5 - text editor -->
+  <link rel="stylesheet" href="./Admin _ Dashboard_files/bootstrap3-wysihtml5.min.css">
+  <!-- fullcalendar -->
+  <link rel="stylesheet" href="./Admin _ Dashboard_files/fullcalendar.min.css">
+  <link rel="stylesheet" href="./Admin _ Dashboard_files/fullcalendar.print.css" media="print">
+<style type="text/css">.jqstooltip { position: absolute;left: 0px;top: 0px;visibility: hidden;background: rgb(0, 0, 0) transparent;background-color: rgba(0,0,0,0.6);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";color: white;font: 10px arial, san serif;text-align: left;white-space: nowrap;padding: 5px;border: 1px solid white;z-index: 10000;}.jqsfield { color: white;font: 10px arial, san serif;text-align: left;}</style></head>
+<body class="skin-blue sidebar-mini">
+
+
+
+<div class="wrapper">
+
+  <header class="main-header">
+    <!-- Logo -->
+    <a href="http://localhost/tutorialCI/cimagen/index2.html" class="logo">
+      <!-- mini logo for sidebar mini 50x50 pixels -->
+      <span class="logo-mini"><b>A</b>LT</span>
+      <!-- logo for regular state and mobile devices -->
+      <span class="logo-lg"><b>Admin</b></span>
+    </a>
+    <!-- Header Navbar: style can be found in header.less -->
+    <nav class="navbar navbar-static-top">
+      <!-- Sidebar toggle button-->
+      <a href="http://localhost/tutorialCI/cimagen/addImagen#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+        <span class="sr-only">Toggle navigation</span>
+      </a>
+
+      <div class="navbar-custom-menu">
+        <ul class="nav navbar-nav">
+          <li>
+            <a href="http://localhost/tutorialCI/clogin/logout" class="dropdown-toggle">Sign out <i class="fa fa-gears"></i></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+ <aside class="main-sidebar">
+
+    <section class="sidebar" style="height: auto;">
+      <!-- Sidebar user panel -->
+      <div class="user-panel">
+        <div class="pull-left image">
+          <img src="./Admin _ Dashboard_files/avatar04.png" class="img-circle" alt="User Image">
+        </div>
+        <div class="pull-left info">
+          
+          <a href="http://localhost/tutorialCI/cimagen/addImagen#"><i class="fa fa-circle text-success"></i> Online</a>
+        </div>
+      </div>
+      <!-- search form -->
+      <form action="http://localhost/tutorialCI/cimagen/addImagen#" method="get" class="sidebar-form">
+        <div class="input-group">
+          <input type="text" name="q" class="form-control" placeholder="Search...">
+              <span class="input-group-btn">
+                <button type="submit" name="search" id="search-btn" class="btn btn-flat"><i class="fa fa-search"></i>
+                </button>
+              </span>
+        </div>
+      </form>
+      <ul class="sidebar-menu">
+        <li class="header">MAIN NAVIGATION</li>
+        <li class="active treeview">
+          <a href="http://localhost/tutorialCI/cimagen/addImagen#">
+            <i class="fa fa-dashboard"></i> <span>Store</span> <i class="fa fa-angle-left pull-right"></i>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="http://localhost/tutorialCI/cproducto"><i class="fa fa-circle-o"></i> Productos</a></li>
+          </ul>
+        </li>
+
+        <li class="treeview">
+          <a href="http://localhost/tutorialCI/cimagen/addImagen#">
+            <i class="fa fa-files-o"></i>
+            <span>Fotos</span>
+            <i class="fa fa-angle-left pull-right"></i>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="http://localhost/tutorialCI/cimagen"><i class="fa fa-circle-o"></i> Ver Fotos</a></li>
+          </ul>
+        </li>
+
+        <!--<li>
+          <a href="http://localhost/tutorialCI/cupload">
+            <i class="fa fa-th"></i> <span> Subir imagen</span>
+            <small class="label pull-right bg-green">new</small>
+          </a>
+        </li>-->
+      </ul>
+    </section>
+
+  </aside>
+
+
+  <div class="content-wrapper" style="min-height: 485px;">
+
+  <div class="content"><h1>Nueva Foto</h1>
+<div class="box box-primary">
+  <div class="box-body">
+	<div class="col-sm-4">
+	  <div class="box box-primary">
+	    <form method="post" action="http://localhost/tutorialCI/cimagen/subirImagen" enctype="multipart/form-data">
+	      <table class="table table-bordered table-striped" style="width: 332	px">
+			<thead>
+			  <tr>
+		      <th style="width: 25px;background-color: #006699; color: white;">ID</th>
+		      <th style="background-color: #006699; color: white;"> <input type="text" name="idImagen" value="" style="width: 220px;background-color: white; color: black;"></th>
+		    	<!--<th>
+				  <td rowspan="3" valign="middle" align="left"><img src="http://localhost/tutorialCI/uploads/imagenes/thumbs/<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: item</p>
+<p>Filename: imagen/vaddimagen.php</p>
+<p>Line Number: 13</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Trying to get property 'ruta' of non-object</p>
+<p>Filename: imagen/vaddimagen.php</p>
+<p>Line Number: 13</p>
+
+</div>" /></td>
+			    </th>-->	
+			</tr>
+			<tr>
+		      <th style="width: 25px;background-color: #006699; color: white;">Titulo</th>
+		      <th style="background-color: #006699; color: white;"><input type="text" name="titImagen" value="" style="width: 220px;background-color: white; color: black;"></th>
+			</tr>
+			<tr>
+			  <th style="width: 25px;background-color: #006699; color: white;">Cargar Imagen</th>
+			  <th style="background-color: #006699; color: white;"><input type="file" name="fileImagen" value="" style="width: 220px;background-color: white; color: black;"></th>
+			</tr>
+			</thead>
+		    <tbody>	
+		      <!-- <tr>
+				<td colspan="4"><input type="submit" value="Guardar" class="btn btn-primary btn-lg btn-block btn-success"><i class="glyphicon glyphicon-floppy-disk"></i></td>
+			  </tr> -->
+		    </tbody>
+		  </table>
+		  <input type="submit" value="Guardar" class="btn btn-primary btn-lg btn-block btn-success">
+		</form>
+			  </div>
+	  <a class="btn btn-primary btn-lg btn-block btn btn-danger" href="http://localhost/tutorialCI/cimagen">Cancelar</a>
+	</div>
+  </div>
+</div></div>
+<!-- /.content -->
+</div>
+  <!-- /.content-wrapper -->
+  <footer class="main-footer">
+    <div class="pull-right hidden-xs">
+      <b>Version</b> 2.3.3
+    </div>
+    <strong>Copyright © 2014-2015 <a href="http://almsaeedstudio.com/">Almsaeed Studio</a>.</strong> All rights
+    reserved.
+  </footer>
+
+</div>
+<!-- ./wrapper -->
+
+
+
+
+
+<!-- jQuery 2.2.0 -->
+<script src="./Admin _ Dashboard_files/jQuery-2.2.3.min.js.descarga"></script>
+<!-- jQuery UI 1.11.4 -->
+<script src="./Admin _ Dashboard_files/jquery-ui.min.js.descarga"></script>
+<!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+<script>
+  $.widget.bridge('uibutton', $.ui.button);
+</script>
+<!-- Bootstrap 3.3.6 -->
+<script src="./Admin _ Dashboard_files/bootstrap.min.js.descarga"></script>
+<!-- Morris.js charts -->
+<script src="./Admin _ Dashboard_files/raphael-min.js.descarga"></script>
+<script src="./Admin _ Dashboard_files/morris.min.js.descarga"></script>
+<!-- Sparkline -->
+<script src="./Admin _ Dashboard_files/jquery.sparkline.min.js.descarga"></script>
+<!-- jvectormap -->
+<script src="./Admin _ Dashboard_files/jquery-jvectormap-1.2.2.min.js.descarga"></script>
+<script src="./Admin _ Dashboard_files/jquery-jvectormap-world-mill-en.js.descarga"></script>
+<!-- jQuery Knob Chart -->
+<script src="./Admin _ Dashboard_files/jquery.knob.js.descarga"></script>
+<!-- daterangepicker -->
+<script src="./Admin _ Dashboard_files/moment.min.js.descarga"></script>
+<script src="./Admin _ Dashboard_files/daterangepicker.js.descarga"></script>
+<!-- datepicker -->
+<script src="./Admin _ Dashboard_files/bootstrap-datepicker.js.descarga"></script>
+<!-- Bootstrap WYSIHTML5 -->
+<script src="./Admin _ Dashboard_files/bootstrap3-wysihtml5.all.min.js.descarga"></script>
+<!-- Slimscroll -->
+<script src="./Admin _ Dashboard_files/jquery.slimscroll.min.js.descarga"></script>
+<!-- FastClick -->
+<script src="./Admin _ Dashboard_files/fastclick.js.descarga"></script>
+<!-- AdminLTE App -->
+<script src="./Admin _ Dashboard_files/app.min.js.descarga"></script>
+<!-- AdminLTE dashboard demo (This is only for demo purposes) -->
+<script src="./Admin _ Dashboard_files/dashboard.js.descarga"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="./Admin _ Dashboard_files/demo.js.descarga"></script>
+<!-- fullCalendar 2.2.5 -->
+<script src="./Admin _ Dashboard_files/moment.min.js.descarga"></script>
+<script src="./Admin _ Dashboard_files/fullcalendar.min.js.descarga"></script>
+<!-- Datatable -->
+<script src="./Admin _ Dashboard_files/jquery.dataTables.min.js.descarga"></script>
+<script src="./Admin _ Dashboard_files/dataTables.bootstrap.min.js.descarga"></script>
+
+<!-- script del proyecto -->
+
+
+
+
+
+
+<div class="jvectormap-label"></div></body></html>
